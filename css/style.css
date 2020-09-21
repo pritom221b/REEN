@@ -1,0 +1,420 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*************************************************************************************/
+                    /*header section css starts from here*/
+/*************************************************************************************/
+.header-section{
+	width: 100%;
+}
+.header-section .top-header{
+	padding: 2px 0px;
+	background: #f5f7fa;
+}
+.header-section .top-header .info-inner{
+	margin: 7px 40px;	
+}
+.header-section .top-header .info-inner li{
+	display: inline-block;
+	margin-right: 24px;
+}
+.header-section .top-header .info-inner li  a{
+	color: #506a85;
+}
+.header-section .top-header .info-inner li  a .fa{
+	margin-right: 7px;
+}
+.header-section .top-header .social-icons{
+	margin-top: 7px;
+	text-align: right;
+}
+.header-section .top-header .social-icons li{
+	display: inline-block;
+}
+.header-section .top-header .social-icons li a{
+	color: #506a85;
+}
+.header-section .top-header .social-icons li a .fa{
+	margin-right: 22px;
+}
+.header-section .bg-light {
+    background-color: #ffffff !important;
+    padding: 25px 0px;
+}
+.header-section .bg-light .navbar-brand{
+	margin-right: 70px;
+	margin-left: 40px;
+}
+.header-section .bg-light a{
+	margin-right: 25px;
+}
+.header-section .bg-light .nav-link{
+	color: #506a85 !important;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	transition: 1s;  
+}
+.header-section .bg-light .nav-link:hover{
+	color: #00bc9c !important;
+}
+.header-section .bg-light .my-lg-0{
+	margin-right: 19px;
+	color: #506a85;
+}
+/*************************************************************************************/
+                    /*header section css ends in here*/
+/*************************************************************************************/
+/*************************************************************************************/
+                    /*slider section css starts from here*/
+/*************************************************************************************/
+.slider .carousel .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel .carousel-caption h2{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.slider .carousel .carousel-caption p{
+	font-size: 17px;
+	font-weight: 600;
+	color: #8e9dae;
+}
+.slider .carousel .carousel-caption .btn-info{
+	padding: 14px 47px;
+	margin-top: 34px;
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+    text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	background: #00bc9c;
+	border-radius: 3px;
+	transition: 1s;
+}
+.slider .carousel .carousel-caption .btn-info:hover{
+	background: transparent;
+}
+.slider .carousel .carousel-caption .btn-info:focus{
+    background: transparent;
+}
+.slider .carousel .carousel-caption .img1h2{
+	margin-left:300px;
+	text-align: right;	
+}
+.slider .carousel .carousel-caption .img1p{
+	margin-left:400px;
+	color: #ffffff;
+	text-align: right;		
+}
+.slider .carousel .carousel-caption .img1a{
+	margin-left:720px;
+}
+.slider .carousel .carousel-caption .img2h2{
+	margin-right:300px;
+	text-align:left;
+	background-color:#506a85;
+	line-height: 70px;	
+}
+.slider .carousel .carousel-caption .img2p{
+	margin-right:400px;
+	color: #506a85;
+	text-align:left;		
+}
+.slider .carousel .carousel-caption .img2a{
+	margin-right: 720px;
+}
+.slider .carousel .carousel-caption .img3h2{
+	margin-left:300px;
+	text-align:right;
+	background-color:#506a85;
+	line-height: 70px;	
+}
+.slider .carousel .carousel-caption .img4a{
+	margin-bottom: 70px;
+}
+.carousel-caption.d-none.d-md-block.img1 {
+    top: 25%;
+}
+/*************************************************************************************/
+                    /*slider section css ends in here*/
+/*************************************************************************************/
+/*************************************************************************************/
+                    /*who we are section css starts from here*/
+/*************************************************************************************/
+.who-we-are{
+	width: 80%;
+	text-align: center;
+	margin: 0px auto;
+}
+.who-we-are h1{
+	padding-top: 90px;
+	font-size: 35px;
+	font-weight: 700;
+	color: #506a85;
+	line-height: 50px;
+}
+.who-we-are p{
+	padding-bottom: 90px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #73879c;
+	line-height: 26px;
+}
+.who-we-are .media{
+	text-align: left;
+}
+.who-we-are .media h5{
+	font-size: 22px;
+	color:#506a85;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.who-we-are .media p{
+	color: #73879c;
+	font-weight:600;
+}
+.who-we-are .media .mr-3{
+	margin-right: 29px !important;
+}
+/*************************************************************************************/
+                    /*latest works css starts from here*/
+/*************************************************************************************/
+.latest-works{
+	width: 100%;
+	padding:90px 0px;
+	background: #f2f5f7;
+	text-align: center;
+}
+.latest-works h2{
+	font-size: 35px;
+	font-weight: 600;
+	color: #506a85;
+}
+.latest-works p{
+	margin: 20px 0px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #73879c;
+}
+.latest-works .card{
+	width: 80%;
+	margin:0px auto;
+	margin:30px 0px;
+}
+.latest-works .card img{
+	border-radius: 0px !important;
+}
+.latest-works .card1{
+	margin-left: 116px !important;
+}
+.latest-works .card2{
+	margin-right: 116px !important;
+}
+.latest-works .card .card-img-top{
+	border-radius: 0px !important;
+}
+.latest-works .card .card-body{
+	margin-top: 10px;
+	border-radius: 0px;
+}
+.latest-works .card .card-title{
+	font-size: 18px;
+	font-weight: 600;
+	color: #506a85;
+}
+.latest-works .card .card-text{
+	font-size: 16px;
+	font-weight:600; 
+	color: #73879c;
+	margin-top: -10px;
+}
+.work{
+	margin-top:40px;
+}
+.owl-theme{
+	width: 80.5% !important;
+	margin-left: 118px;
+}
+.owl-theme .item{
+	width: 94%;
+	padding:22px 0px;	
+}
+.owl-theme .owl-dots{
+	margin-right: 19px;
+}
+.owl-theme .owl-dots .owl-dot{
+	transition: 1s;
+	margin-right: -6px;
+}
+.owl-theme .owl-dots .owl-dot span{
+	background: #506a85 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background: #00bc9c !important;
+}
+.owl-theme .owl-dots .owl-dot:hover span{
+	background: #00bc9c !important;
+}
+/*************************************************************************************/
+                    /*latest works css ends in here*/
+/*************************************************************************************/
+/*************************************************************************************/
+                    /*work with us css starts from here*/
+/*************************************************************************************/
+.work-with-us{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.work-with-us h2{
+	font-size: 35px;
+	font-weight: 600;
+	color: #506a85;
+}
+.work-with-us p{
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #73879c;
+}
+.work-with-us a{
+	padding: 10px 20px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+    text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	background: #00bc9c;
+	border-radius: 3px;
+	transition: 1s;
+}
+.work-with-us a:hover{
+	background: transparent;
+	color:#506a85;
+}
+/*************************************************************************************/
+                    /*work with us css ends in here*/
+/*************************************************************************************/
+/*************************************************************************************/
+                    /*footer css starts from here*/
+/*************************************************************************************/
+.footer .part1{
+	padding: 80px 0px;
+	width: 100%;
+	background: #2f4052;
+}
+.footer h5{
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.footer img{
+	margin-top: 14px;
+}
+.footer p{
+	margin-top: 14px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #9eacba;
+}
+.footer a{
+	font-weight: 500;
+	color: #9eacba;
+	transition: 1s;
+}
+.footer a:hover{
+	color: #00bc9c;
+}
+.footer i{
+	margin-left: 9px;
+}
+.card-group .card{
+	background: #2f4052;
+	border: 0px;
+	border-radius: 0px;
+	margin-right: 14px;
+}
+.card-group .card img{
+	border-radius: 0px;
+}
+.location{
+	margin-left: -8px!important;
+}
+.footer .mx-sm-3{
+	margin-left: 0px !important;
+}
+.footer .form-inline .mx-sm-3 input{
+	padding-right: 65px;
+	background: #4e5c6c;
+	border: 0px;
+}
+.btn-primary{
+	padding: 2px 4px;
+	position: absolute;
+	left: 72%;
+	background: #00bc9c;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	transition: 1s;
+}
+.btn-primary:hover{
+	background: transparent;
+	color:#00bc9c;
+	border: 0px; 
+}
+.footer .part2{
+	width: 100%;
+	padding: 10px 0px;
+	background: #283645;
+}
+.footer .part2 h2{
+	margin-top: 29px;
+	font-size: 16px;
+	color: #707e8c;
+	font-weight: 700;
+}	
+.footer .part2 .nav{
+	margin-top: 24px;
+	color: #707e8c;
+	font-weight: 600;
+}
+.footer .part2 .nav .nav-link{
+	margin-left: -10px;
+}
+.footer .part2 .btnup{
+	margin-left: 100%;
+	margin-top:  -66px!important;
+}
+/*************************************************************************************/
+                    /*footer css ends in here*/
+/*************************************************************************************/
